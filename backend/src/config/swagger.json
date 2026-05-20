@@ -1,0 +1,23 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Interview Platform API",
+    "version": "1.0.0",
+    "description": "Enterprise interview platform API documentation"
+  },
+  "servers": [{ "url": "/api/v1" }],
+  "paths": {
+    "/auth/register": {
+      "post": {
+        "summary": "Register a new user",
+        "tags": ["Auth"]
+      }
+    },
+    "/auth/login": {
+      "post": {
+        "summary": "Login and receive JWT tokens",
+        "tags": ["Auth"]
+      }
+    }
+  }
+}
